@@ -55,26 +55,4 @@ export function calculateDateRange(timeframe: Timeframe): DateRange {
   }
 }
 
-/**
- * Format timestamp for chart display
- */
-export function formatChartDate(timestamp: number, timeframe: Timeframe): string {
-  const date = dayjs(timestamp)
-  
-  switch (timeframe) {
-    case '15M':
-    case '1H':
-      return date.format('MMM D, HH:mm')
-    
-    case '1D':
-    case '1W':
-      return date.format('MMM D')
-    
-    case '1M':
-      return date.format('MMM YYYY')
-    
-    default:
-      return date.format('MMM D, HH:mm')
-  }
-}
 
