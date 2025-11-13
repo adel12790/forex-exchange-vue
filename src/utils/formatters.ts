@@ -1,5 +1,3 @@
-import type { FormatPriceChangeResult } from '../types'
-
 /**
  * Format a price with appropriate decimal places
  */
