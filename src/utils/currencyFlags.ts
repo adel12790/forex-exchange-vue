@@ -162,6 +162,7 @@ const currencyToCountry: CurrencyToCountryMap = {
   'RSD': 'rs',
   'BAM': 'ba',
   'MDL': 'md',
+  'XPF': 'pf',
 }
 
 /**
